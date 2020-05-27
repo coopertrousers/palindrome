@@ -27,7 +27,7 @@ function Phrase(content) {
       return this.processedContent() === this.processedContent().reverse();
     }
     else {
-      return false; // return false if nothing is entered.
+      return false; // return false if nothing is entered
     }
   }
 }
